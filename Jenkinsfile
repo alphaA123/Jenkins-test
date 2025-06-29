@@ -6,10 +6,12 @@ pipeline {
             steps {
                 echo 'This is Stage'
             }
+        }
           stage('Build') {
             steps {
                 echo 'This is Build'
             }
         }
     }
+}
 
